@@ -1,5 +1,5 @@
 # IMDb-Sentiment-Analysis
-Analyse sentiments on a scale of 1-5 from the IMDb reviews dataset. The code being written in keras. 
+Analyse sentiments on a scale of 1-5 from the IMDb reviews dataset. The code is written in keras. 
 
 ### Libraries used:
 - Numpy
@@ -10,4 +10,6 @@ Analyse sentiments on a scale of 1-5 from the IMDb reviews dataset. The code bei
 - Gensim
 - String
 
-<analysis.py>
+analysis.py : source code of the project
+train.tsv : training IMDb dataset
+test.tsv : testing dataset
