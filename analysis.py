@@ -86,4 +86,4 @@ with tf.device('/gpu:0'):
     def write_preds(preds, fname):
         pd.DataFrame({"PhraseID": test['PhraseId'],"SentenceId": test['SentenceId'], "Sentiment": preds}).to_csv(fname, index=False, header=True)
 
-    write_preds(preds, "result-1.csv")
+    write_preds(preds, "/output/result-1.csv")
